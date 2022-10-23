@@ -1,0 +1,11 @@
+{
+  "name": "vent",
+  "description": "A template for vue(vite)-electron-node development.",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {},
+  "devDependencies": {
+    "electron": "^21.1.1",
+    "electron-builder": "^23.6.0"
+  }
+}

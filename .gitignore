@@ -1,0 +1,28 @@
+# Config files about commonly used editors except vscode.
+# 
+# It is recommended to use vscode as code editor for this monorepo,
+# and the shared configurations only support vscode yet.
+# You may also use other code editors,
+# but don't sync your settings with other developers before
+# those configurations are fully supported as a part of this template.
+# 
+.atom
+.idea
+*.iml
+*.iws
+*.sln
+
+# Node dependencies and their lockfiles.
+#
+# Pnpm is recommended for monorepo management here.
+# You can also use npm or yarn as node package manager,
+# but make sure you know how to manage monorepo dependencies
+# and their symlink first.
+#
+node_modules
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Output folder of the vscode counter extension.
+.VSCodeCounter

@@ -1,0 +1,7 @@
+{
+  "name": "vent.layout",
+  "description": "UI based on a webpage with preloaded electron apis.",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true
+}

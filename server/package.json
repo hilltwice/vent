@@ -1,0 +1,7 @@
+{
+  "name": "server",
+  "description": "Server of the vent app.",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true
+}

@@ -1,0 +1,18 @@
+{
+  "files.eol": "\n",
+  "files.encoding": "utf8",
+  "editor.rulers": [80],
+
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js,${capture}.test.ts",
+    "*.js": "${capture}.d.ts,${capture}.js.map"
+  },
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
+}

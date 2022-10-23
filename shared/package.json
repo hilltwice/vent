@@ -1,0 +1,6 @@
+{
+  "name": "vent.shared",
+  "description": "Shared apis among client, server and layout.",
+  "version": "0.0.0",
+  "private": true
+}

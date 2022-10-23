@@ -1,0 +1,10 @@
+{
+  "name": "vent.client",
+  "description": "Electron window management and preload scripts.",
+  "version": "0.0.0",
+  "private": true,
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^21.1.1"
+  }
+}

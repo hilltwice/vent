@@ -1,0 +1,13 @@
+# Use prettier to ensure a same code style among different developers.
+# see https://prettier.io/docs/en/options.html
+arrowParens: always
+bracketSameLine: false
+bracketSpacing: false
+endOfLine: lf
+printWidth: 80
+proseWrap: always
+semi: false
+singleQuote: false
+tabWidth: 2
+useTabs: false
+vueIndentScriptAndStyle: true

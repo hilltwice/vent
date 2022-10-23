@@ -1,0 +1,8 @@
+# Register all pnpm managed child repos in this monorepo here.
+packages:
+  - app
+  - client
+  - layout
+  - packages/*
+  - server
+  - shared
