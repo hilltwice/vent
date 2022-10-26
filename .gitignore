@@ -6,8 +6,14 @@
 # but don't sync your settings with other developers before
 # those configurations are fully supported as a part of this template.
 # 
+# JetBrains fleet is not mature enough when the project is launched.
+# So the config folder of fleet is ignored.
+# If you'd like to use fleet, please config the workspace yourself
+# before shared configuration for fleet here is supported.
+# 
 .atom
 .idea
+.fleet
 *.iml
 *.iws
 *.sln
