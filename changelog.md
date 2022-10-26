@@ -31,6 +31,14 @@ systems at the root of the monorepo.
 3. optimize repo structure beyond default `vite-vue-ts` template.
 4. introduce `vitest` and its ui, prepare for the testing.
 
+### 0.0.2 client electron-ts frame
+
+1. establish electron minimal app scripts.
+2. establish rollup build system of electron main and preload.
+3. fix bugs about frontend(layout) public folder build.
+4. config testing system for the client repo.
+5. [ignore](.gitignore) for output files and folders.
+
 # your stage
 
 (Record the processes you have done beyond the vent template for this app.)

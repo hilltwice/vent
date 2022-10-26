@@ -3,8 +3,22 @@
   "description": "Electron window management and preload scripts.",
   "version": "0.0.0",
   "private": true,
-  "type": "commonjs",
+  "type": "module",
+  "scripts": {
+    "test.ui": "vitest --ui",
+    "test": "vitest",
+    "build": "npm run compile-rollup && rollup --config rollup.config.js",
+    "compile-rollup": "tsc -p tsconfig.rollup.json"
+  },
   "devDependencies": {
-    "electron": "^21.1.1"
+    "@rollup/plugin-commonjs": "^23.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^9.0.1",
+    "@types/node": "^14.18.32",
+    "electron": "^21.1.1",
+    "rollup": "^3.2.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4",
+    "vitest": "^0.24.3"
   }
 }

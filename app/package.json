@@ -3,7 +3,10 @@
   "description": "A template for vue(vite)-electron-node development.",
   "version": "0.0.0",
   "private": true,
-  "scripts": {},
+  "main": "app.js",
+  "scripts": {
+    "dev": "electron ."
+  },
   "devDependencies": {
     "electron": "^21.1.1",
     "electron-builder": "^23.6.0"

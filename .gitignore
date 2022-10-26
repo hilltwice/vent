@@ -28,3 +28,6 @@ yarn.lock
 
 # Output compiled files and folders.
 app/assets
+rollup.config.js
+/app/app.js
+/app/api.js

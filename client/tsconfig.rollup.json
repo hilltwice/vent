@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "strict": true,
+    "lib": ["esnext"]
+  },
+  "include": ["rollup.config.ts"]
+}

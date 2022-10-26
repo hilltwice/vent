@@ -9,6 +9,7 @@ export default defineConfig({
   plugins: [vue()],
   base: "./",
   root: src,
+  publicDir: join(cwd(), "public"),
   server: {
     port: 3000,
     strictPort: true,
