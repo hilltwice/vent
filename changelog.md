@@ -38,6 +38,13 @@ systems at the root of the monorepo.
 3. fix bugs about frontend(layout) public folder build.
 4. config testing system for the client repo.
 5. [ignore](.gitignore) for output files and folders.
+6. validate electron running of compiled output files.
+
+### 0.0.3 server ts-node frame
+
+1. establish node esm server minimal template.
+2. config rollup build server.
+3. [ignore](.gitignore) for output files and folders.
 
 # your stage
 

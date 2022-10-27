@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "lib": ["esnext"],
+    "strict": true
+  },
+  "include": ["source/server.ts"]
+}
