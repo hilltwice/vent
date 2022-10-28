@@ -1,0 +1,3 @@
+# Ignore ts source code and dev dependencies in node_modules.
+node_modules
+source
