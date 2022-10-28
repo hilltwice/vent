@@ -2,13 +2,61 @@
   "name": "vent",
   "description": "A template for vue(vite)-electron-node development.",
   "version": "0.0.0",
+  "type": "commonjs",
   "private": true,
   "main": "app.js",
   "scripts": {
-    "dev": "electron ."
+    "dev": "electron .",
+    "build.win": "electron-builder -w",
+    "build.mac": "electron-builder -m",
+    "build.lin": "electron-builder -l"
   },
   "devDependencies": {
     "electron": "^21.1.1",
     "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "productName": "Saaal",
+    "appId": "ceep.saaal",
+    "compression": "maximum",
+    "files": [
+      "views/**",
+      "app.js",
+      "api.js"
+    ],
+    "directories": {
+      "output": "../target"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "icons/saaal.ico",
+      "uninstallerIcon": "icons/saaal.ico",
+      "installerHeaderIcon": "icons/saaal.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Saaal"
+    },
+    "win": {
+      "icon": "icons/saaal.ico",
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "mac": {
+      "icon": "icons/saaal.icns",
+      "target": [
+        "dmg"
+      ]
+    },
+    "linux": {
+      "icon": "icons/saaal.ico"
+    }
   }
 }
