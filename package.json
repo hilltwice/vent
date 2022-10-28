@@ -7,8 +7,15 @@
     "prettier": "prettier --write ."
   },
   "devDependencies": {
-    "@types/node": "^18.11.2",
+    "@microsoft/api-extractor": "^7.33.5",
+    "@rollup/plugin-commonjs": "^23.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^9.0.1",
+    "@types/node": "^14.18.32",
     "prettier": "^2.7.1",
-    "typescript": "^4.8.4"
+    "rollup": "^3.2.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4",
+    "vitest": "^0.24.3"
   }
 }

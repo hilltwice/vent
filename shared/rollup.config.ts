@@ -4,7 +4,6 @@ import ts from "@rollup/plugin-typescript"
 import {join} from "node:path"
 import {cwd} from "node:process"
 import {defineConfig} from "rollup"
-import dts from "rollup-plugin-dts"
 
 const entry = join(cwd(), "source/index.ts")
 
@@ -15,14 +14,6 @@ export default defineConfig([
     input: entry,
     output: {
       file: join(cwd(), "index.js"),
-      format: "esm",
-    },
-  },
-  {
-    plugins: [dts()],
-    input: entry,
-    output: {
-      file: join(cwd(), "index.d.ts"),
       format: "esm",
     },
   },
